@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Golang &middot;  r00x" />
+  	<meta property="og:site_name" content="r00x" />
+  	<meta property="og:url" content="http://localhost:1313/post/go-go-go/" />
+    
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2014-09-13T23:57:32&#43;02:00" />
+
+    
+    
+
+  <title>
+     Golang &middot;  r00x
+  </title>
+
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="r00x" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.15-DEV" />
+
+    <link rel="canonical" href="http://localhost:1313/post/go-go-go/" />
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://localhost:1313/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button icon-feed" href="http://localhost:1313/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Golang</h1>
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2014-09-13T23:57:32&#43;02:00">
+            Sep 13, 2014
+          </time>
+        
+         
+        </section>
+    </header>
+  
+    <section class="post-content">
+      
+
+<p>Bonjour à tous !</p>
+
+<p>Je réfléchissais récemment aux différents langages de programmation que j&rsquo;ai eu l&rsquo;occasion de pratiquer, et je souhaitais vous faire part du petit nouveau, que j&rsquo;espère bientôt rajouter sur mon CV ^_^.</p>
+
+<h1 id="ils-sont-légions:2801839fe846f2e1d9db4ac306d62b0f">Ils sont légions</h1>
+
+<p>Avez-vous déjà réfléchi au nombre de langages de programmation auxquels vous avez déjà eu affaire ? Pour ma part cela se résume ainsi:</p>
+
+<ul>
+<li>J&rsquo;ai appris le <em>BASIC</em> dès l&rsquo;âge de 6 ans (hé oui !), ce qui a grandement joué sur mon avenir&hellip;</li>
+<li>En école d&rsquo;informatique, on m&rsquo;a formé aux langages &ldquo;courants&rdquo;: <em>Assembleur, C, C++, Java</em>.</li>
+<li>Une fois débarqué en milieu professionel j&rsquo;ai dû apprendre sur le tas d&rsquo;autres langages, principalement: <em>Perl, PHP, HTML, CSS, Javascript</em>.</li>
+</ul>
+
+<p>Et de nombreux autres à des degrés de connaissance variés: <em>68000, Scheme, Lisp, Python, Groovy, Ruby, Powershell, Bash, Matlab&hellip;</em></p>
+
+<p><img src="/images/2014/Sep/mini_bd.jpg" alt="" />
+# A la recherche du langage</p>
+
+<p>Après plusieurs années de PHP je souhaitais me refaire la main sur un autre langage mais je ressentais une certaine frustration vis à vis de ce que proposaient les autres: arithmétique des pointeurs, gestion de la mémoire, fichier headers (.h) ainsi qu&rsquo;un syntaxe complexe pour le C et le C++. Quand à Java, le côté verbeux, l&rsquo;empreinte mémoire et la machine virtuelle me rebutaient. Ces raisons sont discutables et constituent uniquement mon ressenti global.</p>
+
+<p>Exit donc les langages classiques, il me fallait quelque chose de neuf&hellip;</p>
+
+<h1 id="go:2801839fe846f2e1d9db4ac306d62b0f">Go !</h1>
+
+<p>C&rsquo;est là que j&rsquo;ai découvert <a href="http://en.wikipedia.org/wiki/Go_%28programming_language%29">Golang</a> (Go pour les intimes). Créé par Google, et annoncé officiellement en 2009, ce langage a pioché les idées dans divers des langages cités plus haut. Il en offre, selon moi, un très bon compromis:</p>
+
+<ul>
+<li><p>La compilation produit un binaire unique sans dépendance. La phase d&rsquo;édition de liens se fait donc de manière statique. La compilation s&rsquo;effectue en un temps record grâce à une syntaxe simplifiée.</p></li>
+
+<li><p>La syntaxe est très simple, à l&rsquo;opposé du <em>&ldquo;More than one way to do it&rdquo;</em> du Perl ou des syntaxes multiples d&rsquo;autres langages. Par exemple, Golang propose un mot-clé unique <code>for</code> pour les boucles (pas de <code>foreach</code>, <code>while</code>, <code>do while</code>, <code>do until</code> &hellip;). Les points-virgules <code>;</code> en fin de ligne sont absents (en fait, ils sont ajoutés automatiquement à la compilation), tout comme le signe <code>$</code> cher à PHP et Perl devant les variables. Les accolades <code>{ }</code> délimitent toutefois les blocs de code, mais les parenthèses <code>( )</code> ne sont pas obligatoires pour les clauses <code>if</code>.</p></li>
+
+<li><p>Le langage est fortement typé. Les types proposés de base sont: entier signé/non-signé de 8 à 64 bits <code>uint8</code>, <code>int8</code>&hellip; <code>int64</code>, réel <code>float32</code>, <code>float64</code>, booleen <code>bool</code>, chaine <code>string</code>, rune <code>rune</code> (charactère UTF-8), tableau (taille statique, par ex: <code>[5]int</code>) et &ldquo;slice&rdquo; (taille dynamique, par ex: <code>[]int</code>). A noter aussi en natif deux types permettant de manipuler les nombres complexes <code>complex32</code>, <code>complex64</code>. Les types composés sont déclarés au moyen de <code>struct</code> similaires au C/C++. La plupart des erreurs de typage sont donc détectées à la compilation.</p></li>
+
+<li><p>La programmation objet est également très simplifiée: déclaration de types, d&rsquo;interfaces et de méthodes&hellip; et c&rsquo;est tout ! Pas de classe abstraites, pas d&rsquo;héritage (simple ni multiple), pas de surcharge de méthodes. Fichtre ! Mais comment vais-je donc mettre en oeuvre mes design pattern ? Haha ! Pas d&rsquo;inquiétude, on peut très bien s&rsquo;en sortir :-) Golang permet ainsi l&rsquo;enfouissement de type, ce qui permet une forme d&rsquo;héritage.</p></li>
+
+<li><p>La gestion de la mémoire: les pointeurs sont autorisés (<code>*int, &amp;var</code>) mais pas leur arithmétique, les variables doivent être déclarées, les tableaux peuvent être déclarés avec une taille statique ou dynamique (slices). L&rsquo;allocation de la mémoire se fait donc automatiquement tout comme la libération qui est gérée par un ramasse-miettes, mais les pointeurs nous laissent décider du passage par valeur ou par référence.</p></li>
+</ul>
+
+<p>On part donc sur de bonnes bases, mais ce n&rsquo;est pas tout !</p>
+
+<h1 id="les-petits-plus:2801839fe846f2e1d9db4ac306d62b0f">Les petits plus</h1>
+
+<p>Golang présente nativement des fonctionalités que d&rsquo;autres langages permettent seulement au prix d&rsquo;outils ou de librairies annexes:</p>
+
+<ul>
+<li><p>Go intègre nativement la programmation concurrente. Un <code>go mafunction()</code> permet de lancer une fonction de manière asynchrone. Pour communiquer entre les &ldquo;goroutines&rdquo;, on utilise les &ldquo;channels&rdquo; qui sont des canaux de communication fortement typés. Cela permet de faire de la programmation asynchrone de manière intuitive et lisible (pas d&rsquo;utilisation de callback comme avec Nodejs).</p></li>
+
+<li><p>La ligne de commande permet de formater un programme Golang selon un standard unique lisible par tous, proche du <a href="http://fr.wikipedia.org/wiki/Style_d%27indentation#Style_K.26R">style K&amp;R</a>. D&rsquo;autres langages ou IDE le proposent mais cette fonctionnalité prend tout son sens avec la syntaxe simplifiée: le code est concis et lisible par tous, même si certains grogneront à cause de l&rsquo;accolade à la ligne ;-)</p></li>
+
+<li><p>On peut exécuter directement un fichier golang, par exemple: <code>go run test.go</code>. La compilation sera effectuée implicitement. Voilà qui fera plaisir à ceux qui ont l&rsquo;habitude des langages de script.</p></li>
+
+<li><p>Une commande <code>godoc</code> permet de générer la documentation à partir du code et même de lancer un serveur web pour la consulter directement.</p></li>
+
+<li><p>Une commande permet <code>go test</code> de lancer les tests unitaires que vous n&rsquo;aurez pas manqué d&rsquo;écrire ;-) Un ajout de l&rsquo;option <code>-test.bench=&quot;Benchmark*&quot;</code> permet de lancer un benchmark sur toutes les fonctions dont le nom correspond au schéma spécifié.</p></li>
+
+<li><p>Goland intègre également un outil de profiling. Cet outil dispose d&rsquo;un affichage du graphes des appels de fonctions, ce qui permet en un coup d&rsquo;oeil de se faire une idée du flux d&rsquo;exécution et de détecter les goulots d&rsquo;étranglement (voir <a href="http://blog.golang.org/profiling-go-programs">ici</a>).</p></li>
+</ul>
+
+<p>La liste n&rsquo;est pas exhaustive, des astuces de programmation rendent la vie plus facile. Par exemple, bien que l&rsquo;on puisse déclarer des interfaces, le mot-clé <code>implement</code> n&rsquo;existe pas, car tout type dont la signature des méthodes correspond à une interface va automatiquement implémenter cette interface. Autre cas pratique: une méthode peut être appelée indifféremment sur un type ou sur un pointeur de type, Golang traduira automatiquement l&rsquo;appel sans qu&rsquo;on ait à jouer avec <code>*</code> ou <code>&amp;</code>.</p>
+
+<h1 id="pour-aller-plus-loin:2801839fe846f2e1d9db4ac306d62b0f">Pour aller plus loin</h1>
+
+<p>Pour ceux qui ne connaissaient pas Golang, j&rsquo;espère avoir titillé votre curiosité. Je vous conseille d&rsquo;aller jeter un coup d&rsquo;oeil sur le <a href="http://golang.org/">site</a> et le <a href="http://blog.golang.org/">blog</a> officiels.</p>
+
+<p>De nombreux projets Golang voient le jour sur Github et autres plate-formes de partage de code. Je citerais parmi eux <a href="https://github.com/docker/docker">Docker</a>, un système de virtualisation par containers que j&rsquo;utilise d&rsquo;ailleurs pour héberger ce blog.</p>
+
+<h1 id="place-à-l-action:2801839fe846f2e1d9db4ac306d62b0f">Place à l&rsquo;action</h1>
+
+<p>Tout ça c&rsquo;est bien beau, mais la maîtrise d&rsquo;un langage ne s&rsquo;acquiert que par la pratique. Il me fallait donc un projet pour débuter la programmation en Golang. Un de mes amis souhaitant lui aussi se lancer dans cette aventure, nous avons décidé de nous pencher sur le protocole LDAP et de le réimplémenter chacun de notre côté.</p>
+
+<p>Mais ceci fera l&rsquo;objet du prochain article ;-)</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://localhost:1313/"></a></h4>
+  
+  <p>Read <a href="http://localhost:1313/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    
+    
+  </div>
+</section>
+
+
+
+    
+    <section class="share">
+      <h4>Share this post</h4>
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Golang&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost%2fgo-go-go%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span>
+      </a>
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2fgo-go-go%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span>
+      </a>
+      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fgo-go-go%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span>
+      </a>
+    </section>
+    
+
+    
+    
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">r00x</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/index.js"></script>
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+
