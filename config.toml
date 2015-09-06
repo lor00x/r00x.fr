@@ -1,10 +1,10 @@
-baseurl = "http://r00x.fr/"
+baseurl = "http://r00xblog.appspot.com/"
 languageCode = "fr-FR"
 title = "r00x"
 paginate = 5
 DisqusShortname = "r00xfr"
 Copyright = "All rights reserved - 2015"
-theme = "casper"
+theme = "hugo-theme-casper"
 [params]
   # description = "Whatever the mind of man can conceive and believe, it can achieve."
   # cover = "images/cover_polenord.jpg"
