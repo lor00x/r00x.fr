@@ -1,3 +1,42 @@
-baseurl = "http://r00x.fr"
-languageCode = "fr-fr"
+baseurl = "http://r00x.fr/"
+languageCode = "fr-FR"
 title = "r00x"
+paginate = 5
+DisqusShortname = "r00xfr"
+Copyright = "All rights reserved - 2015"
+theme = "casper"
+[params]
+  # description = "Whatever the mind of man can conceive and believe, it can achieve."
+  # cover = "images/cover_polenord.jpg"
+  author = "Thomas GUILLIER"
+  authorlocation = "Paris, France"
+  authorwebsite = "http://r00x.fr"
+  # bio= "IT software and Security Engineer, Open source enthusiast."
+  # logo = "images/logo.png"
+  # googleAnalyticsUserID = "UA-79101-12"
+  githubName = "lor00x"
+  twitterName = "R00xThomas"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "Github repos"
+  weight = 100
+  pre = "<h3>Follow me</h3>"
+  url = "https://github.com/lor00x"
+
+[[menu.main]]
+  name = "Twitter timeline"
+  weight = 101
+  url = "https://twitter.com/R00xThomas"
+

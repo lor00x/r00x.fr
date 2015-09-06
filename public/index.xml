@@ -2,19 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r00x</title>
-    <link>http://r00x.fr/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on r00x</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Sat, 01 Nov 2014 17:50:10 +0100</lastBuildDate>
-    <atom:link href="http://r00x.fr/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-FR</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sun, 06 Sep 2015 20:23:57 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 06 Sep 2015 20:23:57 +0200</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;about:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;This is the r00x blog&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Proxy LDAP en Golang</title>
-      <link>http://r00x.fr/post/ldap-en-golang/</link>
+      <link>http://localhost:1313/ldap-en-golang/</link>
       <pubDate>Sat, 01 Nov 2014 17:50:10 +0100</pubDate>
       
-      <guid>http://r00x.fr/post/ldap-en-golang/</guid>
+      <guid>http://localhost:1313/ldap-en-golang/</guid>
       <description>
 
 &lt;p&gt;Bonjour !&lt;/p&gt;
@@ -100,7 +115,8 @@
 
 &lt;p&gt;Une structure encodée au format BER se présente sous une suite d&amp;rsquo;octets qui en définissent le type, la longueur et les données. Pour une structure composée les données sont elles-mêmes une ou plusieurs sous-structures au format BER.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/Oct/asn1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/Oct/asn1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Maintenant que nous savons un peu plus où nous mettons les pieds, passons au développement.&lt;/p&gt;
 
@@ -303,7 +319,8 @@ func (bindrequest *BindRequest) readComponents(bytes Bytes) {
 
 &lt;p&gt;Les goroutines nous permettent séparer au mieux les fonctions (découpage, décodage, transmission). Voici l&amp;rsquo;architecture que j&amp;rsquo;ai adoptée pour ce proxy LDAP:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/Nov/ldap_proxy.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/Nov/ldap_proxy.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
 
 &lt;h3 id=&#34;implémentation:d9e41ffe1b2963ecd5511498bdeb05c1&#34;&gt;Implémentation&lt;/h3&gt;
 
@@ -597,10 +614,10 @@ message.LDAPMessage{
     
     <item>
       <title>Golang</title>
-      <link>http://r00x.fr/post/go-go-go/</link>
+      <link>http://localhost:1313/go-go-go/</link>
       <pubDate>Sat, 13 Sep 2014 23:57:32 +0200</pubDate>
       
-      <guid>http://r00x.fr/post/go-go-go/</guid>
+      <guid>http://localhost:1313/go-go-go/</guid>
       <description>
 
 &lt;p&gt;Bonjour à tous !&lt;/p&gt;
@@ -619,7 +636,8 @@ message.LDAPMessage{
 
 &lt;p&gt;Et de nombreux autres à des degrés de connaissance variés: &lt;em&gt;68000, Scheme, Lisp, Python, Groovy, Ruby, Powershell, Bash, Matlab&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/Sep/mini_bd.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/Sep/mini_bd.jpg&#34; alt=&#34;&#34; /&gt;
+
 # A la recherche du langage&lt;/p&gt;
 
 &lt;p&gt;Après plusieurs années de PHP je souhaitais me refaire la main sur un autre langage mais je ressentais une certaine frustration vis à vis de ce que proposaient les autres: arithmétique des pointeurs, gestion de la mémoire, fichier headers (.h) ainsi qu&amp;rsquo;un syntaxe complexe pour le C et le C++. Quand à Java, le côté verbeux, l&amp;rsquo;empreinte mémoire et la machine virtuelle me rebutaient. Ces raisons sont discutables et constituent uniquement mon ressenti global.&lt;/p&gt;
@@ -680,13 +698,14 @@ message.LDAPMessage{
     
     <item>
       <title>Hackathon Société Générale - Jour 1</title>
-      <link>http://r00x.fr/post/hackathon-premier-essai/</link>
+      <link>http://localhost:1313/hackathon-premier-essai/</link>
       <pubDate>Mon, 02 Jun 2014 22:20:16 +0200</pubDate>
       
-      <guid>http://r00x.fr/post/hackathon-premier-essai/</guid>
+      <guid>http://localhost:1313/hackathon-premier-essai/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/May/hackathonsg_cut.png&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/May/hackathonsg_cut.png&#34; alt=&#34;&#34; /&gt;
+
 Du 23 au 25 Mai avait lieu le &lt;a href=&#34;http://hackathonsg.bemyapp.com/&#34;&gt;Hackathon Société Générale&lt;/a&gt;. Organisé par BeMyApp et la Société Générale, ce hackaton se déroulait à &lt;a href=&#34;http://www.42.fr/&#34;&gt;l&amp;rsquo;école 42&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;C&amp;rsquo;était l&amp;rsquo;occasion de participer à mon premier hackathon, de découvrir l&amp;rsquo;Ecole 42 et de me faire plaisir en codant des trucs super cools en compagnie d&amp;rsquo;élèves motivés et compétents ! Dit comme ça c&amp;rsquo;est vendeur, non ? :-)&lt;/p&gt;
@@ -712,7 +731,8 @@ Du 23 au 25 Mai avait lieu le &lt;a href=&#34;http://hackathonsg.bemyapp.com/&#3
 
 &lt;p&gt;Le hackathon SG accueillait porteurs d&amp;rsquo;idées, développeurs et designers. La soirée du vendredi a débuté par une présentation des projets de développement. Chaque porteur d&amp;rsquo;idée avait 1 minute chrono pour expliquer son projet. J&amp;rsquo;ai moi aussi fait mon petit discours, ce qui est en soit un exploit étant donné le stress engendré par l&amp;rsquo;idée de parler devant 200 personnes ! :D&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/Jun/Hackaton-3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/Jun/Hackaton-3.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&#34;l-annuaire-des-technos:5440e36561bf673082bf02c9b7b321bd&#34;&gt;L&amp;rsquo;annuaire des technos&lt;/h2&gt;
 
@@ -722,7 +742,8 @@ Du 23 au 25 Mai avait lieu le &lt;a href=&#34;http://hackathonsg.bemyapp.com/&#3
 
 &lt;p&gt;Après les pitchs, tout le monde s&amp;rsquo;est réuni autour d&amp;rsquo;un buffet de sushis, l&amp;rsquo;occasion pour les développeurs de discuter avec les porteurs d&amp;rsquo;idées. Ces derniers s&amp;rsquo;étaient vus affublés d&amp;rsquo;une pancarte portant le nom de leur projet et d&amp;rsquo;un gobelet destiné à recueillir les jetons symbolisant le soutien des personnes souhaitant y participer.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/Jun/projet_frais-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/Jun/projet_frais-1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Je souhaitais développer une appli web avec un frontend en Javascript et un backend PHP présentant une API REST. Quatre élèves de l&amp;rsquo;Ecole 42 ont manifesté leur intérêt pour mon projet et le souhait d&amp;rsquo;utiliser Angular JS pour l&amp;rsquo;interface. L&amp;rsquo;équipe a également accueilli un consultant en informatique spécialisé sur Drupal. Enfin un autre porteur d&amp;rsquo;idée, &lt;a href=&#34;http://vjeantet.fr/&#34;&gt;Valère&lt;/a&gt;, ayant reçu moins de soutien, s&amp;rsquo;est joint à l&amp;rsquo;équipe. Nous voilà donc sept personnes !&lt;/p&gt;
 
@@ -730,7 +751,8 @@ Du 23 au 25 Mai avait lieu le &lt;a href=&#34;http://hackathonsg.bemyapp.com/&#3
 
 &lt;p&gt;Pendant la constitution des équipes, le jury se réunissait pour élire les meilleurs pitchs de présentation. Les cinq premiers gagnaient un Nerf !&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/May/nerf_small.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/May/nerf_small.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Voilà les premières équipes armées pour le week-end. De quoi déconcentrer les autres équipes en plein travail. Hé oui, le monde du développement est impitoyable ! D&amp;rsquo;autres concours annexes seront organisés au cours du week-end avec d&amp;rsquo;autre Nerfs à gagner.&lt;/p&gt;
 
@@ -738,7 +760,8 @@ Du 23 au 25 Mai avait lieu le &lt;a href=&#34;http://hackathonsg.bemyapp.com/&#3
 
 &lt;p&gt;Une fois constituées, les équipes se sont installées au &amp;ldquo;cluster&amp;rdquo;. Le cluster, c&amp;rsquo;est l&amp;rsquo;ensemble constitué des trois salles principales de l&amp;rsquo;Ecole 42. Destinée au travail intensif, chacune contient 300 iMac en libre service pour les élèves 24h/24, 7j/7. La salle de notre étage comportait aussi une salle de repos pour que les plus irréductibles puissent s&amp;rsquo;accorder un peu de repos entre deux séances de code intensif.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://r00x.fr/images/2014/May/cluster1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014/May/cluster1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;La discussion de la soirée a porté sur les choix techniques.&lt;/p&gt;
 
@@ -762,10 +785,10 @@ Du 23 au 25 Mai avait lieu le &lt;a href=&#34;http://hackathonsg.bemyapp.com/&#3
     
     <item>
       <title>Bonjour monde !</title>
-      <link>http://r00x.fr/post/bonjour-monde/</link>
+      <link>http://localhost:1313/bonjour-monde/</link>
       <pubDate>Sun, 13 Apr 2014 18:23:39 +0200</pubDate>
       
-      <guid>http://r00x.fr/post/bonjour-monde/</guid>
+      <guid>http://localhost:1313/bonjour-monde/</guid>
       <description>&lt;p&gt;&lt;strong&gt;r00x&lt;/strong&gt;: Bonjour, cher visiteur. Soyez le bienvenu sur ce blog.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Visiteur&lt;/strong&gt;: - C&amp;rsquo;est quoi ce blog ?&lt;/p&gt;
